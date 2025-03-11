@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ropnop/gokrb5/client"
-	"github.com/ropnop/gokrb5/config"
-	"github.com/ropnop/gokrb5/credentials"
+	"github.com/lyethar/gokrb5/client"
+	"github.com/lyethar/gokrb5/config"
+	"github.com/lyethar/gokrb5/credentials"
 	goidentity "gopkg.in/jcmturner/goidentity.v3"
 )
 

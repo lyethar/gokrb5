@@ -3,7 +3,7 @@ package rfc3961
 import (
 	"bytes"
 
-	"github.com/ropnop/gokrb5/crypto/etype"
+	"github.com/lyethar/gokrb5/crypto/etype"
 )
 
 const (
