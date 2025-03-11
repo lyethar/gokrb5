@@ -40,7 +40,7 @@ func (cl *Client) ASExchange(realm string, ASReq messages.ASReq, referral int) (
 				if err != nil {
 					return messages.ASRep{}, krberror.Errorf(err, krberror.KRBMsgError, "AS Exchange Error: failed setting AS_REQ PAData for pre-authentication required")
 				}
-				b, err := ASReq.Marshal()
+				/*b, err := ASReq.Marshal()
 				if err != nil {
 					return messages.ASRep{}, krberror.Errorf(err, krberror.EncodingError, "AS Exchange Error: failed marshaling AS_REQ with PAData")
 				}
@@ -50,7 +50,7 @@ func (cl *Client) ASExchange(realm string, ASReq messages.ASReq, referral int) (
 						return messages.ASRep{}, krberror.Errorf(err, krberror.KDCError, "AS Exchange Error: kerberos error response from KDC")
 					}
 					return messages.ASRep{}, krberror.Errorf(err, krberror.NetworkingError, "AS Exchange Error: failed sending AS_REQ to KDC")
-				}
+				}*/
 			case errorcode.KDC_ERR_WRONG_REALM:
 				// Client referral https://tools.ietf.org/html/rfc6806.html#section-7
 				if referral > 5 {

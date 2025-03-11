@@ -27,7 +27,7 @@ ktFromBytes, err := keytab.Parse(b)
 **Create** a client instance with either a password or a keytab.
 A configuration must also be passed. Additionally optional additional settings can be provided.
 ```go
-import 	"github.com/ropnop/gokrb5/v8/client"
+import 	"github.com/lyethar/gokrb5/v8/client"
 cl := client.NewWithPassword("username", "REALM.COM", "password", cfg)
 cl := client.NewWithKeytab("username", "REALM.COM", kt, cfg)
 ```

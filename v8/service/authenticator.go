@@ -7,7 +7,7 @@ import (
 	"time"
 
 	goidentity "github.com/jcmturner/goidentity/v6"
-	"github.com/ropnop/gokrb5/v8/client"
+	"github.com/lyethar/gokrb5/v8/client"
 	"github.com/ropnop/gokrb5/v8/config"
 	"github.com/ropnop/gokrb5/v8/credentials"
 )

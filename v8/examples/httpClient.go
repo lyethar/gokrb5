@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/ropnop/gokrb5/v8/client"
+	"github.com/lyethar/gokrb5/v8/client"
 	"github.com/ropnop/gokrb5/v8/config"
 	"github.com/ropnop/gokrb5/v8/keytab"
 	"github.com/ropnop/gokrb5/v8/spnego"

@@ -6,7 +6,7 @@ import (
 	"fmt"
 
 	"github.com/jcmturner/gofork/encoding/asn1"
-	"github.com/ropnop/gokrb5/v8/client"
+	"github.com/lyethar/gokrb5/v8/client"
 	"github.com/ropnop/gokrb5/v8/gssapi"
 	"github.com/ropnop/gokrb5/v8/messages"
 	"github.com/ropnop/gokrb5/v8/service"

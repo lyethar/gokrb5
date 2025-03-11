@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ropnop/gokrb5/v8/client"
+	"github.com/lyethar/gokrb5/v8/client"
 	"github.com/ropnop/gokrb5/v8/config"
 	"github.com/ropnop/gokrb5/v8/credentials"
 	"github.com/ropnop/gokrb5/v8/iana/errorcode"

@@ -9,7 +9,7 @@ import (
 
 	"github.com/jcmturner/gofork/encoding/asn1"
 	"github.com/ropnop/gokrb5/v8/asn1tools"
-	"github.com/ropnop/gokrb5/v8/client"
+	"github.com/lyethar/gokrb5/v8/client"
 	"github.com/ropnop/gokrb5/v8/credentials"
 	"github.com/ropnop/gokrb5/v8/gssapi"
 	"github.com/ropnop/gokrb5/v8/iana/chksumtype"
