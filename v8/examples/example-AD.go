@@ -15,12 +15,12 @@ import (
 	"github.com/gorilla/sessions"
 	"github.com/jcmturner/goidentity/v6"
 	"github.com/lyethar/gokrb5/v8/client"
-	"github.com/ropnop/gokrb5/v8/config"
-	"github.com/ropnop/gokrb5/v8/credentials"
-	"github.com/ropnop/gokrb5/v8/keytab"
-	"github.com/ropnop/gokrb5/v8/service"
-	"github.com/ropnop/gokrb5/v8/spnego"
-	"github.com/ropnop/gokrb5/v8/test/testdata"
+	"github.com/lyethar/gokrb5/v8/config"
+	"github.com/lyethar/gokrb5/v8/credentials"
+	"github.com/lyethar/gokrb5/v8/keytab"
+	"github.com/lyethar/gokrb5/v8/service"
+	"github.com/lyethar/gokrb5/v8/spnego"
+	"github.com/lyethar/gokrb5/v8/test/testdata"
 )
 
 func main() {

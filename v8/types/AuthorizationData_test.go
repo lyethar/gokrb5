@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ropnop/gokrb5/v8/iana/adtype"
-	"github.com/ropnop/gokrb5/v8/iana/nametype"
-	"github.com/ropnop/gokrb5/v8/test/testdata"
+	"github.com/lyethar/gokrb5/v8/iana/adtype"
+	"github.com/lyethar/gokrb5/v8/iana/nametype"
+	"github.com/lyethar/gokrb5/v8/test/testdata"
 	"github.com/stretchr/testify/assert"
 )
 

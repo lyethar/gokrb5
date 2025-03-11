@@ -6,13 +6,13 @@ import (
 	"time"
 
 	"github.com/jcmturner/gofork/encoding/asn1"
-	"github.com/ropnop/gokrb5/v8/asn1tools"
-	"github.com/ropnop/gokrb5/v8/iana"
-	"github.com/ropnop/gokrb5/v8/iana/asnAppTag"
-	"github.com/ropnop/gokrb5/v8/iana/errorcode"
-	"github.com/ropnop/gokrb5/v8/iana/msgtype"
-	"github.com/ropnop/gokrb5/v8/krberror"
-	"github.com/ropnop/gokrb5/v8/types"
+	"github.com/lyethar/gokrb5/v8/asn1tools"
+	"github.com/lyethar/gokrb5/v8/iana"
+	"github.com/lyethar/gokrb5/v8/iana/asnAppTag"
+	"github.com/lyethar/gokrb5/v8/iana/errorcode"
+	"github.com/lyethar/gokrb5/v8/iana/msgtype"
+	"github.com/lyethar/gokrb5/v8/krberror"
+	"github.com/lyethar/gokrb5/v8/types"
 )
 
 // KRBError implements RFC 4120 KRB_ERROR: https://tools.ietf.org/html/rfc4120#section-5.9.1.
